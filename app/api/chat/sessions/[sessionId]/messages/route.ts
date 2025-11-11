@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const BACKEND_API_URL =
-  process.env.BACKEND_API_URL ||
+  "https://ai-therapist-backend-sage.vercel.app" ||
   "https://ai-therapist-agent-backend.onrender.com";
 
 export async function POST(
