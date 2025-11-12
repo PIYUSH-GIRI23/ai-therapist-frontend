@@ -1,4 +1,4 @@
-# Aura3.0: AI-Powered Mental Health Support on Sonic 🧠⛓️
+# Serenity3.0: AI-Powered Mental Health Support on Sonic 🧠⛓️
 
 [![Sonic Token](https://img.shields.io/badge/Sonic-Integration-purple.svg)]()
 [![Zerepy](https://img.shields.io/badge/Zerepy-AI_Agent-blue.svg)]()
@@ -11,7 +11,7 @@
 ## 📸 Project Showcase
 
 <div align="center">
-  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="Aura Dashboard" width="45%" />
+  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="Serenity Dashboard" width="45%" />
   <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Therapy Session" width="45%" />
 </div>
 
@@ -152,8 +152,8 @@ const detectStressSignals = (message: string): StressPrompt | null => {
 1. **Clone & Install**
 
    ```bash
-   git clone https://github.com/blocklinklabs/aura3.0.git
-   cd aura3.0
+   git clone https://github.com/blocklinklabs/Serenity3.0.git
+   cd Serenity3.0
    npm install
    ```
 
