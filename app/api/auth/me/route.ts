@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(req: NextRequest) {
-  const API_URL =
-    "https://ai-therapist-backend-sage.vercel.app" ||
-    "https://ai-therapist-agent-backend.onrender.com";
+  const API_URL="https://ai-therapist-backend-sage.vercel.app";
   const token = req.headers.get("Authorization");
 
   if (!token) {

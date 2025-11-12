@@ -2,9 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
-  const API_URL =
-    "https://ai-therapist-backend-sage.vercel.app" ||
-    "https://ai-therapist-agent-backend.onrender.com";
+  const API_URL="https://ai-therapist-backend-sage.vercel.app";
 
   try {
     const res = await fetch(`${API_URL}/auth/login`, {

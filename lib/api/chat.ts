@@ -40,9 +40,7 @@ export interface ApiResponse {
   };
 }
 
-const API_BASE =
-  "https://ai-therapist-backend-sage.vercel.app" ||
-  "https://ai-therapist-agent-backend.onrender.com";
+const API_BASE ="https://ai-therapist-backend-sage.vercel.app";
 
 // Helper function to get auth headers
 const getAuthHeaders = () => {

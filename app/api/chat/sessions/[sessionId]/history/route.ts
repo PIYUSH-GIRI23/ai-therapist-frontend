@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const BACKEND_API_URL =
-  "https://ai-therapist-backend-sage.vercel.app" ||
-  "https://ai-therapist-agent-backend.onrender.com";
+const BACKEND_API_URL ="https://ai-therapist-backend-sage.vercel.app";
 
 export async function GET(
   req: NextRequest,
